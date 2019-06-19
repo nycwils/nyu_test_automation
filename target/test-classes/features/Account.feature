@@ -16,8 +16,8 @@ And I close the browser
 
 Examples:
 |Runmode|BrowserType  |
-|   Y	| MozillaHL   |
-|   Y   | ChromeHL      |
+|   Y	| Mozilla   |
+|   N   | Chrome      |
 
 @RegressionTest
 Scenario Outline: Verify all the links on WebPublishing landing page is funcitonal
