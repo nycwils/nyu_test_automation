@@ -31,16 +31,16 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 13,
-  "name": "I click on \"Your_Avatar_Link\" link and upload a picture",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "the picture should be uploaded successfully",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 13,
+      "value": "#When I click on \"Your_Avatar_Link\" link and upload a picture"
+    },
+    {
+      "line": 14,
+      "value": "#Then the picture should be uploaded successfully"
+    }
+  ],
   "line": 15,
   "name": "I close the browser",
   "keyword": "And "
@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 843559,
+  "duration": 868335,
   "status": "passed"
 });
 formatter.scenario({
@@ -113,16 +113,16 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 13,
-  "name": "I click on \"Your_Avatar_Link\" link and upload a picture",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "the picture should be uploaded successfully",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 13,
+      "value": "#When I click on \"Your_Avatar_Link\" link and upload a picture"
+    },
+    {
+      "line": 14,
+      "value": "#Then the picture should be uploaded successfully"
+    }
+  ],
   "line": 15,
   "name": "I close the browser",
   "keyword": "And "
@@ -137,7 +137,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 122560377,
+  "duration": 121617545,
   "status": "passed"
 });
 formatter.match({
@@ -150,42 +150,22 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 4688855011,
+  "duration": 4710409537,
   "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Your_Avatar_Link",
-      "offset": 12
-    }
-  ],
-  "location": "stepDefinition.i_click_on_link_and_upload_a_picture(String)"
-});
-formatter.result({
-  "duration": 30023677134,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu\u0027, ip: \u0027fe80:0:0:0:10d9:938a:be81:dc66%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.4\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003d/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable\u003dfalse, moz:geckodriverVersion\u003d0.23.0, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, moz:headless\u003dfalse, platform\u003dANY, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d57.0.4, platformVersion\u003d17.5.0, moz:processID\u003d19438.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003ddarwin, moz:webdriverClick\u003dfalse}]\nSession ID: a92d32ab-b919-2346-97cd-6432b269501e\n*** Element info: {Using\u003dlink text, value\u003dYour Avatar}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\n\tat util.WebConnector.click_link_text(WebConnector.java:169)\n\tat stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)\n\tat ✽.When I click on \"Your_Avatar_Link\" link and upload a picture(Account.feature:13)\n",
-  "status": "failed"
-});
-formatter.match({
-  "location": "stepDefinition.the_picture_should_be_uploaded_successfully()"
-});
-formatter.result({
-  "status": "skipped"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 515437342,
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 703049408,
+  "duration": 72852,
   "status": "passed"
 });
 formatter.before({
-  "duration": 294574,
+  "duration": 351707,
   "status": "passed"
 });
 formatter.scenario({
@@ -219,16 +199,16 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.step({
-  "line": 13,
-  "name": "I click on \"Your_Avatar_Link\" link and upload a picture",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 14,
-  "name": "the picture should be uploaded successfully",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 13,
+      "value": "#When I click on \"Your_Avatar_Link\" link and upload a picture"
+    },
+    {
+      "line": 14,
+      "value": "#Then the picture should be uploaded successfully"
+    }
+  ],
   "line": 15,
   "name": "I close the browser",
   "keyword": "And "
@@ -243,7 +223,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 1363412,
+  "duration": 1619618,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:11)\n",
   "status": "pending"
 });
@@ -260,31 +240,13 @@ formatter.result({
   "status": "skipped"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "Your_Avatar_Link",
-      "offset": 12
-    }
-  ],
-  "location": "stepDefinition.i_click_on_link_and_upload_a_picture(String)"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
-  "location": "stepDefinition.the_picture_should_be_uploaded_successfully()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 19942,
+  "duration": 16812,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -380,7 +342,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 332813,
+  "duration": 345922,
   "status": "passed"
 });
 formatter.scenario({
@@ -458,7 +420,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 307261,
+  "duration": 319429,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -553,11 +515,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 20503,
+  "duration": 20091,
   "status": "passed"
 });
 formatter.before({
-  "duration": 330564,
+  "duration": 349369,
   "status": "passed"
 });
 formatter.scenario({
@@ -635,7 +597,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 321075,
+  "duration": 314854,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -730,7 +692,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 22390,
+  "duration": 19530,
   "status": "passed"
 });
 });
