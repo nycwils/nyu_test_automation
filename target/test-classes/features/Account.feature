@@ -16,7 +16,7 @@ And I close the browser
 
 Examples:
 |Runmode|BrowserType  |
-|   Y	| MozillaHL   |
+|   Y	| Mozilla   |
 |   N   | ChromeHL      |
 
 @RegressionTest

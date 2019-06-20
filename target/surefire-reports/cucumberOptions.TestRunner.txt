@@ -1,0 +1,58 @@
+-------------------------------------------------------------------------------
+Test set: cucumberOptions.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 35, Failures: 0, Errors: 2, Skipped: 28, Time elapsed: 39.894 sec <<< FAILURE!
+When I click on "Your_Avatar_Link" link and upload a picture(| Y | MozillaHL |)  Time elapsed: 0.004 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu', ip: 'fe80:0:0:0:10d9:938a:be81:dc66%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+*** Element info: {Using=link text, value=Your Avatar}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at util.WebConnector.click_link_text(WebConnector.java:169)
+	at stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)
+	at ✽.When I click on "Your_Avatar_Link" link and upload a picture(Account.feature:13)
+
+| Y | MozillaHL |  Time elapsed: 0.005 sec  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu', ip: 'fe80:0:0:0:10d9:938a:be81:dc66%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '11.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+*** Element info: {Using=link text, value=Your Avatar}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at util.WebConnector.click_link_text(WebConnector.java:169)
+	at stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)
+	at ✽.When I click on "Your_Avatar_Link" link and upload a picture(Account.feature:13)
+
