@@ -62,7 +62,7 @@ formatter.examples({
     {
       "cells": [
         "Y",
-        "MozillaHL"
+        "Mozilla"
       ],
       "line": 19,
       "id": "account-feature;webpublishing-upload-avatar-image;;2"
@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 888324,
+  "duration": 843559,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,7 +106,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "I am logged into wp.nyu.edu in \"MozillaHL\"",
+  "name": "I am logged into wp.nyu.edu in \"Mozilla\"",
   "matchedColumns": [
     1
   ],
@@ -137,20 +137,20 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 129441540,
+  "duration": 122560377,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "MozillaHL",
+      "val": "Mozilla",
       "offset": 32
     }
   ],
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 8529456859,
+  "duration": 4688855011,
   "status": "passed"
 });
 formatter.match({
@@ -163,8 +163,8 @@ formatter.match({
   "location": "stepDefinition.i_click_on_link_and_upload_a_picture(String)"
 });
 formatter.result({
-  "duration": 30024270511,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu\u0027, ip: \u0027fe80:0:0:0:10d9:938a:be81:dc66%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.4\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003d/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable\u003dfalse, moz:geckodriverVersion\u003d0.23.0, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, moz:headless\u003dtrue, platform\u003dANY, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d57.0.4, platformVersion\u003d17.5.0, moz:processID\u003d18871.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003ddarwin, moz:webdriverClick\u003dfalse}]\nSession ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6\n*** Element info: {Using\u003dlink text, value\u003dYour Avatar}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\n\tat util.WebConnector.click_link_text(WebConnector.java:169)\n\tat stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)\n\tat ✽.When I click on \"Your_Avatar_Link\" link and upload a picture(Account.feature:13)\n",
+  "duration": 30023677134,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu\u0027, ip: \u0027fe80:0:0:0:10d9:938a:be81:dc66%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.13.4\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003d/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable\u003dfalse, moz:geckodriverVersion\u003d0.23.0, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, moz:headless\u003dfalse, platform\u003dANY, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d57.0.4, platformVersion\u003d17.5.0, moz:processID\u003d19438.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003ddarwin, moz:webdriverClick\u003dfalse}]\nSession ID: a92d32ab-b919-2346-97cd-6432b269501e\n*** Element info: {Using\u003dlink text, value\u003dYour Avatar}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:461)\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:246)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\n\tat util.WebConnector.click_link_text(WebConnector.java:169)\n\tat stepDefinitions.stepDefinition.i_click_on_link_and_upload_a_picture(stepDefinition.java:58)\n\tat ✽.When I click on \"Your_Avatar_Link\" link and upload a picture(Account.feature:13)\n",
   "status": "failed"
 });
 formatter.match({
@@ -181,11 +181,11 @@ formatter.result({
 });
 formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 515279016,
+  "duration": 703049408,
   "status": "passed"
 });
 formatter.before({
-  "duration": 293568,
+  "duration": 294574,
   "status": "passed"
 });
 formatter.scenario({
@@ -243,7 +243,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 1372793,
+  "duration": 1363412,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:11)\n",
   "status": "pending"
 });
@@ -284,7 +284,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 17448,
+  "duration": 19942,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -380,7 +380,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 323976,
+  "duration": 332813,
   "status": "passed"
 });
 formatter.scenario({
@@ -458,7 +458,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 349912,
+  "duration": 307261,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -553,11 +553,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 26230,
+  "duration": 20503,
   "status": "passed"
 });
 formatter.before({
-  "duration": 317206,
+  "duration": 330564,
   "status": "passed"
 });
 formatter.scenario({
@@ -635,7 +635,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 361872,
+  "duration": 321075,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -730,7 +730,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 20110,
+  "duration": 22390,
   "status": "passed"
 });
 });

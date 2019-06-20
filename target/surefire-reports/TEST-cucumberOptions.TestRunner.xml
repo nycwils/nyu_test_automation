@@ -64,23 +64,23 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="| Y | MozillaHL |" name="Given Runmode is &quot;Y&quot;" time="0.002"/>
-  <testcase classname="| Y | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0"/>
-  <testcase classname="| Y | MozillaHL |" name="When I click on &quot;Your_Avatar_Link&quot; link and upload a picture" time="0.004">
+  <testcase classname="| Y | Mozilla |" name="Given Runmode is &quot;Y&quot;" time="0.001"/>
+  <testcase classname="| Y | Mozilla |" name="Given I am logged into wp.nyu.edu in &quot;Mozilla&quot;" time="0"/>
+  <testcase classname="| Y | Mozilla |" name="When I click on &quot;Your_Avatar_Link&quot; link and upload a picture" time="0.004">
     <error message="Unable to locate element: Your Avatar
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu&apos;, ip: &apos;fe80:0:0:0:10d9:938a:be81:dc66%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
-Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=19438.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+Session ID: a92d32ab-b919-2346-97cd-6432b269501e
 *** Element info: {Using=link text, value=Your Avatar}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu&apos;, ip: &apos;fe80:0:0:0:10d9:938a:be81:dc66%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
-Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=19438.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+Session ID: a92d32ab-b919-2346-97cd-6432b269501e
 *** Element info: {Using=link text, value=Your Avatar}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -101,21 +101,21 @@ Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
 	at ✽.When I click on &quot;Your_Avatar_Link&quot; link and upload a picture(Account.feature:13)
 </error>
   </testcase>
-  <testcase classname="| Y | MozillaHL |" name="| Y | MozillaHL |" time="0.005">
+  <testcase classname="| Y | Mozilla |" name="| Y | Mozilla |" time="0.005">
     <error message="Unable to locate element: Your Avatar
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu&apos;, ip: &apos;fe80:0:0:0:10d9:938a:be81:dc66%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
-Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=19438.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+Session ID: a92d32ab-b919-2346-97cd-6432b269501e
 *** Element info: {Using=link text, value=Your Avatar}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu&apos;, ip: &apos;fe80:0:0:0:10d9:938a:be81:dc66%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;11.0.2&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
-Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=19438.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+Session ID: a92d32ab-b919-2346-97cd-6432b269501e
 *** Element info: {Using=link text, value=Your Avatar}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -136,10 +136,10 @@ Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
 	at ✽.When I click on &quot;Your_Avatar_Link&quot; link and upload a picture(Account.feature:13)
 </error>
   </testcase>
-  <testcase classname="| Y | MozillaHL |" name="Then the picture should be uploaded successfully" time="0.006">
+  <testcase classname="| Y | Mozilla |" name="Then the picture should be uploaded successfully" time="0.006">
     <skipped/>
   </testcase>
-  <testcase classname="| Y | MozillaHL |" name="And I close the browser" time="0.007">
+  <testcase classname="| Y | Mozilla |" name="And I close the browser" time="0.008">
     <skipped/>
   </testcase>
   <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.006">
@@ -150,15 +150,15 @@ is the before hook being ran first?
   @RegressionTest
   Scenario Outline: WebPublishing Upload Avatar Image            # Account.feature:19
     Given Runmode is &quot;Y&quot;                                         # stepDefinition.Runmode_is(String)
-    Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;             # stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)
+    Given I am logged into wp.nyu.edu in &quot;Mozilla&quot;               # stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)
     When I click on &quot;Your_Avatar_Link&quot; link and upload a picture # stepDefinition.i_click_on_link_and_upload_a_picture(String)
       org.openqa.selenium.NoSuchElementException: Unable to locate element: Your Avatar
       For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
       Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
       System info: host: &apos;wl41applemacprosn-f5kq10mnf9vn.cdv.nyu.edu&apos;, ip: &apos;fe80:0:0:0:10d9:938a:be81:dc66%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.4&apos;, java.version: &apos;11.0.2&apos;
       Driver info: org.openqa.selenium.firefox.FirefoxDriver
-      Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.vqq1sfYrtj25, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=18871.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
-      Session ID: 0dcb26e1-d805-0f4f-9cac-b72c223ddac6
+      Capabilities [{moz:profile=/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/rust_mozprofile.K5cGaaIxlHle, rotatable=false, moz:geckodriverVersion=0.23.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=57.0.4, platformVersion=17.5.0, moz:processID=19438.0, browserName=firefox, javascriptEnabled=true, platformName=darwin, moz:webdriverClick=false}]
+      Session ID: a92d32ab-b919-2346-97cd-6432b269501e
       *** Element info: {Using=link text, value=Your Avatar}
       	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
       	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -184,7 +184,7 @@ is the before hook being ran first?
     <system-err>*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
 </system-err>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.007">
+  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.008">
     <skipped/>
   </testcase>
   <testcase classname="| N | ChromeHL |" name="When I click on &quot;Your_Avatar_Link&quot; link and upload a picture" time="0.008">
@@ -193,14 +193,14 @@ is the before hook being ran first?
   <testcase classname="| N | ChromeHL |" name="Then the picture should be uploaded successfully" time="0.009">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.009">
+  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.01">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.01">
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.011">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.01"/>
-  <testcase classname="| N | MozillaHL |" name="Given Runmode is &quot;N&quot;" time="0.006">
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.011"/>
+  <testcase classname="| N | MozillaHL |" name="Given Runmode is &quot;N&quot;" time="0.005">
     <skipped/>
     <system-out>
   @RegressionTest
@@ -240,10 +240,10 @@ is the before hook being ran first?
   <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.008">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Support&quot; Link" time="0.009">
+  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Support&quot; Link" time="0.008">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.01">
+  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.009">
     <skipped/>
   </testcase>
   <testcase classname="| N | MozillaHL |" name="When I click on &quot;Updates&quot; Link" time="0.01">
@@ -280,32 +280,32 @@ is the before hook being ran first?
     And I close the browser                                                          # stepDefinition.i_close_the_browser()
 </system-out>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.008">
+  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.007">
     <skipped/>
   </testcase>
   <testcase classname="| N | ChromeHL |" name="When I click on &quot;Create&quot; Link" time="0.008">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.009">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.008">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Support&quot; Link" time="0.01">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Support&quot; Link" time="0.009">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.011">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.01">
     <skipped/>
   </testcase>
   <testcase classname="| N | ChromeHL |" name="When I click on &quot;Updates&quot; Link" time="0.011">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.012">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.013">
     <skipped/>
   </testcase>
   <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.013">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.014">
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.015">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.014"/>
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.015"/>
 </testsuite>

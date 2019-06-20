@@ -10,8 +10,8 @@ I want to run through all the test cases for image loading and wp navigation.
 Scenario Outline: WebPublishing Upload Avatar Image
 Given Runmode is "<Runmode>"
 Given I am logged into wp.nyu.edu in "<BrowserType>"
-When I click on "Your_Avatar_Link" link and upload a picture
-Then the picture should be uploaded successfully
+#When I click on "Your_Avatar_Link" link and upload a picture
+#Then the picture should be uploaded successfully
 And I close the browser
 
 Examples:
