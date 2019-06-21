@@ -62,7 +62,7 @@ formatter.examples({
     {
       "cells": [
         "Y",
-        "Mozilla"
+        "MozillaHL"
       ],
       "line": 19,
       "id": "account-feature;webpublishing-upload-avatar-image;;2"
@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 868335,
+  "duration": 913424,
   "status": "passed"
 });
 formatter.scenario({
@@ -106,7 +106,7 @@ formatter.step({
 });
 formatter.step({
   "line": 12,
-  "name": "I am logged into wp.nyu.edu in \"Mozilla\"",
+  "name": "I am logged into wp.nyu.edu in \"MozillaHL\"",
   "matchedColumns": [
     1
   ],
@@ -137,35 +137,35 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 121617545,
+  "duration": 120853103,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Mozilla",
+      "val": "MozillaHL",
       "offset": 32
     }
   ],
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 4710409537,
+  "duration": 7799316536,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 515437342,
+  "duration": 375361995,
   "status": "passed"
 });
 formatter.after({
-  "duration": 72852,
+  "duration": 69203,
   "status": "passed"
 });
 formatter.before({
-  "duration": 351707,
+  "duration": 291160,
   "status": "passed"
 });
 formatter.scenario({
@@ -223,7 +223,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 1619618,
+  "duration": 1485609,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:11)\n",
   "status": "pending"
 });
@@ -246,7 +246,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 16812,
+  "duration": 15306,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -342,7 +342,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 345922,
+  "duration": 316263,
   "status": "passed"
 });
 formatter.scenario({
@@ -420,7 +420,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 319429,
+  "duration": 301274,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -515,11 +515,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 20091,
+  "duration": 20770,
   "status": "passed"
 });
 formatter.before({
-  "duration": 349369,
+  "duration": 301895,
   "status": "passed"
 });
 formatter.scenario({
@@ -597,7 +597,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 314854,
+  "duration": 288974,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -692,7 +692,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 19530,
+  "duration": 20617,
   "status": "passed"
 });
 });

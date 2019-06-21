@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="4" time="5.351763">
-<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="5.348406">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="4" time="8.299555">
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="8.296514">
 <system-out><![CDATA[Given Runmode is "Y"........................................................passed
-Given I am logged into wp.nyu.edu in "Mozilla"..............................passed
+Given I am logged into wp.nyu.edu in "MozillaHL"............................passed
 And I close the browser.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image 2" time="0.001988">
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image 2" time="0.001792">
 <skipped><![CDATA[Given Runmode is "N"........................................................pending
 Given I am logged into wp.nyu.edu in "ChromeHL".............................skipped
 And I close the browser.....................................................skipped
 ]]></skipped>
 </testcase>
-<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="0.000685">
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="0.000638">
 <skipped><![CDATA[Given Runmode is "N"........................................................pending
 Given I am logged into wp.nyu.edu in "MozillaHL"............................skipped
 When I click on "Create" Link...............................................skipped
@@ -23,7 +23,7 @@ Then I should see "Recent_Posts"............................................skip
 And I close the browser.....................................................skipped
 ]]></skipped>
 </testcase>
-<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal 2" time="0.000684">
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal 2" time="0.000611">
 <skipped><![CDATA[Given Runmode is "N"........................................................pending
 Given I am logged into wp.nyu.edu in "ChromeHL".............................skipped
 When I click on "Create" Link...............................................skipped
