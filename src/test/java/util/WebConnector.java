@@ -94,7 +94,9 @@ public class WebConnector {
 			//running headless requirements
 			FirefoxBinary firefoxBinary = new FirefoxBinary();
 			firefoxBinary.addCommandLineOptions("--headless");
-			System.setProperty("webdriver.gecko.driver", "src//test//java//Resources//geckodriver");
+			//System.setProperty("webdriver.gecko.driver", "src//test//java//Resources//geckodriver");
+			System.setProperty("webdriver.gecko.driver", "/usr/local/share/gecko_driver/geckodriver");
+			
 			FirefoxOptions firefoxOptions = new FirefoxOptions();
 			firefoxOptions.setBinary(firefoxBinary);
 			driver = new FirefoxDriver(firefoxOptions);
