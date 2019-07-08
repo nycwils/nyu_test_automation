@@ -37,7 +37,15 @@ node('master') {
           
         }
        
-    
+      stage("Cucumber Reports") {
+
+      steps {
+          cucumber buildStatus: "UNSTABLE",
+          fileIncludePattern: "**/cucumber.json",
+          jsonReportDirectory: 'target'
+      }
+       
+    }
 
   
     stage("Wipe Out Jenkins Temp Workspace") {
