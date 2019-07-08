@@ -46,7 +46,7 @@ public class stepDefinition {
 	@Given("^I am on wp\\.nyu\\.edu in \"([^\"]*)\"$")
 	public void i_am_on_wp_nyu_edu_in(String browser) throws Throwable {
 		selenium.openBrowser(browser);
-		selenium.navigate("webpublishingURL");
+		selenium.navigate("webpublishingURLL");
 		
 	}
 
