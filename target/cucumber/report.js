@@ -69,7 +69,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "N",
+        "Y",
         "ChromeHL"
       ],
       "line": 20,
@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1048584,
+  "duration": 2382393,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 166821505,
+  "duration": 166733053,
   "status": "passed"
 });
 formatter.match({
@@ -150,22 +150,22 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 11050220211,
+  "duration": 12386325540,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 1134657717,
+  "duration": 1002156926,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70943,
+  "duration": 80908,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4549593,
+  "duration": 3692171,
   "status": "passed"
 });
 formatter.scenario({
@@ -184,7 +184,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 11,
-  "name": "Runmode is \"N\"",
+  "name": "Runmode is \"Y\"",
   "matchedColumns": [
     0
   ],
@@ -216,16 +216,15 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "N",
+      "val": "Y",
       "offset": 12
     }
   ],
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 7191377,
-  "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:11)\n",
-  "status": "pending"
+  "duration": 72224,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -237,7 +236,9 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 202322507,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\n  (Driver info: chromedriver\u003d2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform\u003dLinux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ip-172-31-36-232\u0027, ip: \u0027172.31.36.232\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-1043-aws\u0027, java.version: \u00271.8.0_212\u0027\nDriver info: driver.version: ChromeDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:137)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:184)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:171)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:158)\n\tat util.WebConnector.openBrowser(WebConnector.java:118)\n\tat stepDefinitions.stepDefinition.i_am_logged_into_wp_nyu_edu_in(stepDefinition.java:37)\n\tat ✽.Given I am logged into wp.nyu.edu in \"ChromeHL\"(Account.feature:12)\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
@@ -246,7 +247,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 22529,
+  "duration": 28077696,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -324,7 +325,7 @@ formatter.examples({
     },
     {
       "cells": [
-        "Y",
+        "N",
         "MozillaHL"
       ],
       "line": 36,
@@ -342,7 +343,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 342744,
+  "duration": 4397106,
   "status": "passed"
 });
 formatter.scenario({
@@ -361,7 +362,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 24,
-  "name": "Runmode is \"Y\"",
+  "name": "Runmode is \"N\"",
   "matchedColumns": [
     0
   ],
@@ -413,15 +414,16 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "Y",
+      "val": "N",
       "offset": 12
     }
   ],
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 80953,
-  "status": "passed"
+  "duration": 13150646,
+  "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
+  "status": "pending"
 });
 formatter.match({
   "arguments": [
@@ -433,8 +435,7 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 9266597564,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -446,8 +447,7 @@ formatter.match({
   "location": "stepDefinition.i_click_on_Link(String)"
 });
 formatter.result({
-  "duration": 7306633097,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -459,9 +459,7 @@ formatter.match({
   "location": "stepDefinition.i_should_see(String)"
 });
 formatter.result({
-  "duration": 30083262964,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ip-172-31-36-232\u0027, ip: \u0027172.31.36.232\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-1043-aws\u0027, java.version: \u00271.8.0_212\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003d/tmp/rust_mozprofile.fCnJNA2eGlT4, rotatable\u003dfalse, moz:geckodriverVersion\u003d0.24.0, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, unhandledPromptBehavior\u003ddismiss and notify, strictFileInteractability\u003dfalse, moz:headless\u003dtrue, platform\u003dANY, moz:accessibilityChecks\u003dfalse, moz:useNonSpecCompliantPointerOrigin\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d67.0.4, moz:shutdownTimeout\u003d60000.0, platformVersion\u003d4.15.0-1043-aws, moz:processID\u003d10424.0, browserName\u003dfirefox, moz:buildID\u003d20190620092152, javascriptEnabled\u003dtrue, platformName\u003dlinux, setWindowRect\u003dtrue, moz:webdriverClick\u003dtrue}]\nSession ID: 58f8bb35-b795-430f-929b-3af1341a18f4\n*** Element info: {Using\u003dxpath, value\u003d/html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\n\tat util.WebConnector.isElementPresentText(WebConnector.java:216)\n\tat stepDefinitions.stepDefinition.i_should_see(stepDefinition.java:98)\n\tat ✽.Then I should see \"Admin_Email_Field\"(Account.feature:27)\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -517,13 +515,12 @@ formatter.match({
 formatter.result({
   "status": "skipped"
 });
-formatter.embedding("image/png", "embedded0.png");
 formatter.after({
-  "duration": 1135646277,
+  "duration": 29191,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1413392,
+  "duration": 218927,
   "status": "passed"
 });
 formatter.scenario({
@@ -601,7 +598,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 237627,
+  "duration": 229870,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -696,7 +693,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 20290,
+  "duration": 18951,
   "status": "passed"
 });
 });
