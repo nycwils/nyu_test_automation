@@ -109,7 +109,9 @@ public class WebConnector {
 			mozilla = driver;
 		}
 		else if(browserType.equals("ChromeHL") && chrome == null) {
-			System.setProperty("webdriver.chrome.driver", "src//test//java//Resources//chromedriver");
+			//System.setProperty("webdriver.chrome.driver", "src//test//java//Resources//chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chrome/chromedriver");
+	
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("--headless");
 		    chromeOptions.addArguments("--window-size=1325x744");
