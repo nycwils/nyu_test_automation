@@ -1,74 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="31" failures="0" name="cucumberOptions.TestRunner" time="0.259" errors="0" skipped="24">
+<testsuite tests="30" failures="0" name="cucumberOptions.TestRunner" time="0.802" errors="2" skipped="19">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="11.0.2+9"/>
-    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home/lib"/>
-    <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/wl41/git/automation"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="java.vm.version" value="25.212-b03"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/ubuntu/git"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="sun.os.patch.level" value="unknown"/>
-    <property name="user.country" value="US"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/wl41/git/automation"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="11.0.2+9"/>
-    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/tl/r7p60zdd2yv85_555mclzzy1_g0yrr/T/"/>
+    <property name="user.dir" value="/home/ubuntu/git"/>
+    <property name="java.runtime.version" value="1.8.0_212-8u212-b03-0ubuntu1.18.04.1-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/bin/m2.conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/wl41/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.1/libexec/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="55.0"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="10.13.4"/>
-    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.1/libexec/lib/jansi-native"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/wl41"/>
-    <property name="user.timezone" value="America/New_York"/>
-    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="os.version" value="4.15.0-1043-aws"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/ubuntu"/>
+    <property name="user.timezone" value="Etc/UTC"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.specification.version" value="11"/>
-    <property name="user.name" value="wl41"/>
-    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="11"/>
+    <property name="user.name" value="ubuntu"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/Library/Java/JavaVirtualMachines/openjdk-11.0.2.jdk/Contents/Home"/>
-    <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="11.0.2"/>
+    <property name="java.version" value="1.8.0_212"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.1/libexec"/>
+    <property name="maven.home" value="/usr/share/maven"/>
     <property name="file.separator" value="/"/>
-    <property name="java.version.date" value="2019-01-15"/>
-    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="java.vendor.version" value="18.9"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="| Y | MozillaHL |" name="Given Runmode is &quot;Y&quot;" time="0.002"/>
   <testcase classname="| Y | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0"/>
   <testcase classname="| Y | MozillaHL |" name="And I close the browser" time="0"/>
-  <testcase classname="| Y | MozillaHL |" name="| Y | MozillaHL |" time="0.001"/>
-  <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.006">
+  <testcase classname="| Y | MozillaHL |" name="| Y | MozillaHL |" time="0.009"/>
+  <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.031">
     <skipped/>
     <system-out>is the before hook being ran first?
 
@@ -81,122 +77,185 @@
     And I close the browser                           # stepDefinition.i_close_the_browser()
 </system-out>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.008">
+  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.032">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.009">
+  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.036">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.009">
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.04">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.01"/>
-  <testcase classname="| N | MozillaHL |" name="Given Runmode is &quot;N&quot;" time="0.005">
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.044"/>
+  <testcase classname="| Y | MozillaHL |" name="Given Runmode is &quot;Y&quot;" time="0"/>
+  <testcase classname="| Y | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0"/>
+  <testcase classname="| Y | MozillaHL |" name="When I click on &quot;Create&quot; Link" time="0"/>
+  <testcase classname="| Y | MozillaHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.025">
+    <error message="Unable to locate element: /html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.fCnJNA2eGlT4, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=10424.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 58f8bb35-b795-430f-929b-3af1341a18f4
+*** Element info: {Using=xpath, value=/html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.fCnJNA2eGlT4, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=10424.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 58f8bb35-b795-430f-929b-3af1341a18f4
+*** Element info: {Using=xpath, value=/html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at util.WebConnector.isElementPresentText(WebConnector.java:216)
+	at stepDefinitions.stepDefinition.i_should_see(stepDefinition.java:98)
+	at ✽.Then I should see &quot;Admin_Email_Field&quot;(Account.feature:27)
+</error>
+    <system-err>console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221562598337501%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+</system-err>
+  </testcase>
+  <testcase classname="| Y | MozillaHL |" name="| Y | MozillaHL |" time="0.026">
+    <error message="Unable to locate element: /html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.fCnJNA2eGlT4, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=10424.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 58f8bb35-b795-430f-929b-3af1341a18f4
+*** Element info: {Using=xpath, value=/html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=/tmp/rust_mozprofile.fCnJNA2eGlT4, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=10424.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 58f8bb35-b795-430f-929b-3af1341a18f4
+*** Element info: {Using=xpath, value=/html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at util.WebConnector.isElementPresentText(WebConnector.java:216)
+	at stepDefinitions.stepDefinition.i_should_see(stepDefinition.java:98)
+	at ✽.Then I should see &quot;Admin_Email_Field&quot;(Account.feature:27)
+</error>
+  </testcase>
+  <testcase classname="| Y | MozillaHL |" name="When I click on &quot;Support&quot; Link" time="0.026">
     <skipped/>
-    <system-out>
-  @RegressionTest
-  Scenario Outline: WebPublishing Upload Avatar Image # Account.feature:20
-    Given Runmode is &quot;N&quot;                              # stepDefinition.Runmode_is(String)
-      cucumber.api.PendingException: Skipping the test as Runmode is NO
-      	at stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)
-      	at ✽.Given Runmode is &quot;N&quot;(Account.feature:11)
-
-    Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;   # stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)
-    #When I click on &quot;Your_Avatar_Link&quot; link and upload a picture
-    #Then the picture should be uploaded successfully
-    And I close the browser                           # stepDefinition.i_close_the_browser()
-
-  @RegressionTest
-  Scenario Outline: Verify all the links on WebPublishing landing page is funcitonal # Account.feature:23
-    Given Runmode is &quot;&lt;Runmode&gt;&quot;
-    Given I am logged into wp.nyu.edu in &quot;&lt;BrowserType&gt;&quot;
-    When I click on &quot;Create&quot; Link
-    Then I should see &quot;Admin_Email_Field&quot;
-    When I click on &quot;Support&quot; Link
-    Then I should see &quot;WebPublishing_Help_Label&quot;
-    When I click on &quot;Updates&quot; Link
-    Then I should see &quot;Recent_Posts&quot;
-    And I close the browser
-
-    Examples: 
+  </testcase>
+  <testcase classname="| Y | MozillaHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.026">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Y | MozillaHL |" name="When I click on &quot;Updates&quot; Link" time="0.026">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Y | MozillaHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.033">
+    <skipped/>
+  </testcase>
+  <testcase classname="| Y | MozillaHL |" name="And I close the browser" time="0.034">
+    <skipped/>
+  </testcase>
+  <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.016">
+    <skipped/>
+    <system-out>DID THIS BLOCK OF CODE RUNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 is the before hook being ran first?
-</system-out>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0.006">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Create&quot; Link" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.008">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Support&quot; Link" time="0.009">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.01">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Updates&quot; Link" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.011">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="And I close the browser" time="0.012">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="| N | MozillaHL |" time="0.013">
-    <skipped/>
-  </testcase>
-  <testcase classname="| N | MozillaHL |" name="| N | MozillaHL |" time="0.013"/>
-  <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.006">
-    <skipped/>
-    <system-out>is the before hook being ran first?
 
   @RegressionTest
   Scenario Outline: Verify all the links on WebPublishing landing page is funcitonal # Account.feature:36
-    Given Runmode is &quot;N&quot;                                                             # stepDefinition.Runmode_is(String)
-      cucumber.api.PendingException: Skipping the test as Runmode is NO
-      	at stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)
-      	at ✽.Given Runmode is &quot;N&quot;(Account.feature:24)
-
+    Given Runmode is &quot;Y&quot;                                                             # stepDefinition.Runmode_is(String)
     Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;                                 # stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)
     When I click on &quot;Create&quot; Link                                                    # stepDefinition.i_click_on_Link(String)
     Then I should see &quot;Admin_Email_Field&quot;                                            # stepDefinition.i_should_see(String)
+      org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]
+      For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+      Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+      System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
+      Driver info: org.openqa.selenium.firefox.FirefoxDriver
+      Capabilities [{moz:profile=/tmp/rust_mozprofile.fCnJNA2eGlT4, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=10424.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+      Session ID: 58f8bb35-b795-430f-929b-3af1341a18f4
+      *** Element info: {Using=xpath, value=/html/body/div[2]/main/article/div[3]/div/form/div/div/fieldset/div/input[1]}
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+      	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+      	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+      	at util.WebConnector.isElementPresentText(WebConnector.java:216)
+      	at stepDefinitions.stepDefinition.i_should_see(stepDefinition.java:98)
+      	at ✽.Then I should see &quot;Admin_Email_Field&quot;(Account.feature:27)
+
     When I click on &quot;Support&quot; Link                                                   # stepDefinition.i_click_on_Link(String)
     Then I should see &quot;WebPublishing_Help_Label&quot;                                     # stepDefinition.i_should_see(String)
     When I click on &quot;Updates&quot; Link                                                   # stepDefinition.i_click_on_Link(String)
     Then I should see &quot;Recent_Posts&quot;                                                 # stepDefinition.i_should_see(String)
     And I close the browser                                                          # stepDefinition.i_close_the_browser()
 </system-out>
+    <system-err>1562623977150	Marionette	INFO	Stopped listening on port 41411
+</system-err>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.007">
+  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.026">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Create&quot; Link" time="0.008">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Create&quot; Link" time="0.036">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.009">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.037">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Support&quot; Link" time="0.009">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Support&quot; Link" time="0.038">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.01">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.038">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Updates&quot; Link" time="0.011">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Updates&quot; Link" time="0.039">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.011">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.04">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.012">
+  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.045">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.013">
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.048">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.013"/>
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.049"/>
 </testsuite>
