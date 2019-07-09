@@ -110,7 +110,7 @@ public class WebConnector {
 		}
 		else if(browserType.equals("ChromeHL") && chrome == null) {
 			//System.setProperty("webdriver.chrome.driver", "src//test//java//Resources//chromedriver");
-			System.setProperty("webdriver.chrome.driver", "/home/ubuntu/chrome/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/usr/local/share/gecko_driver/chromedriver");
 	
 			ChromeOptions chromeOptions = new ChromeOptions();
 			chromeOptions.addArguments("--headless");
