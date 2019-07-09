@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="30" failures="0" name="cucumberOptions.TestRunner" time="0.776" errors="2" skipped="21">
+<testsuite tests="30" failures="0" name="cucumberOptions.TestRunner" time="0.826" errors="2" skipped="21">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
@@ -63,17 +63,21 @@
   <testcase classname="| Y | MozillaHL |" name="Given Runmode is &quot;Y&quot;" time="0.002"/>
   <testcase classname="| Y | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0"/>
   <testcase classname="| Y | MozillaHL |" name="And I close the browser" time="0"/>
-  <testcase classname="| Y | MozillaHL |" name="| Y | MozillaHL |" time="0.005"/>
-  <testcase classname="| Y | ChromeHL |" name="Given Runmode is &quot;Y&quot;" time="0.002"/>
-  <testcase classname="| Y | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.018">
-    <error message="unknown error: cannot find Chrome binary
+  <testcase classname="| Y | MozillaHL |" name="| Y | MozillaHL |" time="0.007"/>
+  <testcase classname="| Y | ChromeHL |" name="Given Runmode is &quot;Y&quot;" time="0"/>
+  <testcase classname="| Y | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.017">
+    <error message="unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn&apos;t exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
   (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
-Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn&apos;t exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
   (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
 Driver info: driver.version: ChromeDriver
@@ -110,19 +114,23 @@ Driver info: driver.version: ChromeDriver
 	at stepDefinitions.stepDefinition.i_am_logged_into_wp_nyu_edu_in(stepDefinition.java:37)
 	at ✽.Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;(Account.feature:12)
 </error>
-    <system-err>Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 29977
+    <system-err>Starting ChromeDriver 2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706) on port 3313
 Only local connections are allowed.
 </system-err>
   </testcase>
   <testcase classname="| Y | ChromeHL |" name="| Y | ChromeHL |" time="0.018">
-    <error message="unknown error: cannot find Chrome binary
+    <error message="unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn&apos;t exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
   (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
-Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Driver info: driver.version: ChromeDriver" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn&apos;t exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
   (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 14 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
 Driver info: driver.version: ChromeDriver
@@ -160,26 +168,28 @@ Driver info: driver.version: ChromeDriver
 	at ✽.Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;(Account.feature:12)
 </error>
   </testcase>
-  <testcase classname="| Y | ChromeHL |" name="And I close the browser" time="0.028">
+  <testcase classname="| Y | ChromeHL |" name="And I close the browser" time="0.027">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="Given Runmode is &quot;N&quot;" time="0.019">
+  <testcase classname="| N | MozillaHL |" name="Given Runmode is &quot;N&quot;" time="0.025">
     <skipped/>
     <system-out>DID THIS BLOCK OF CODE RUNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
 Method Failed: screenshotOnFailure, Exception: Tried to run command without establishing a connection
 Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
 System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=/tmp/rust_mozprofile.T6aSSlydZXr8, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=14652.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: 14bcf2a9-ee58-4ae1-8329-fe5b41ff71c0
+Capabilities [{moz:profile=/tmp/rust_mozprofile.1AUVWgu0O8Id, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=true, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=67.0.4, moz:shutdownTimeout=60000.0, platformVersion=4.15.0-1043-aws, moz:processID=15312.0, browserName=firefox, moz:buildID=20190620092152, javascriptEnabled=true, platformName=linux, setWindowRect=true, moz:webdriverClick=true}]
+Session ID: 16416b24-35f4-448e-b7f4-af836567b3ef
 
   @RegressionTest
   Scenario Outline: WebPublishing Upload Avatar Image # Account.feature:20
     Given Runmode is &quot;Y&quot;                              # stepDefinition.Runmode_is(String)
     Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;   # stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)
-      org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+      org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+        (unknown error: DevToolsActivePort file doesn&apos;t exist)
+        (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
         (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-      Command duration or timeout: 14 milliseconds
+      Command duration or timeout: 74 milliseconds
       Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
       System info: host: &apos;ip-172-31-36-232&apos;, ip: &apos;172.31.36.232&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-1043-aws&apos;, java.version: &apos;1.8.0_212&apos;
       Driver info: driver.version: ChromeDriver
@@ -236,35 +246,35 @@ Session ID: 14bcf2a9-ee58-4ae1-8329-fe5b41ff71c0
 is the before hook being ran first?
 </system-out>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0.02">
+  <testcase classname="| N | MozillaHL |" name="Given I am logged into wp.nyu.edu in &quot;MozillaHL&quot;" time="0.026">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Create&quot; Link" time="0.021">
+  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Create&quot; Link" time="0.027">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.025">
+  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.028">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Support&quot; Link" time="0.029">
+  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Support&quot; Link" time="0.038">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.03">
+  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.039">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Updates&quot; Link" time="0.031">
+  <testcase classname="| N | MozillaHL |" name="When I click on &quot;Updates&quot; Link" time="0.04">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.036">
+  <testcase classname="| N | MozillaHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.042">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="And I close the browser" time="0.037">
+  <testcase classname="| N | MozillaHL |" name="And I close the browser" time="0.046">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="| N | MozillaHL |" time="0.041">
+  <testcase classname="| N | MozillaHL |" name="| N | MozillaHL |" time="0.047">
     <skipped/>
   </testcase>
-  <testcase classname="| N | MozillaHL |" name="| N | MozillaHL |" time="0.041"/>
-  <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.015">
+  <testcase classname="| N | MozillaHL |" name="| N | MozillaHL |" time="0.047"/>
+  <testcase classname="| N | ChromeHL |" name="Given Runmode is &quot;N&quot;" time="0.017">
     <skipped/>
     <system-out>is the before hook being ran first?
 
@@ -285,32 +295,32 @@ is the before hook being ran first?
     And I close the browser                                                          # stepDefinition.i_close_the_browser()
 </system-out>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.027">
+  <testcase classname="| N | ChromeHL |" name="Given I am logged into wp.nyu.edu in &quot;ChromeHL&quot;" time="0.025">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Create&quot; Link" time="0.028">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Create&quot; Link" time="0.027">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.03">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Admin_Email_Field&quot;" time="0.027">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Support&quot; Link" time="0.031">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Support&quot; Link" time="0.029">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.036">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;WebPublishing_Help_Label&quot;" time="0.031">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Updates&quot; Link" time="0.037">
+  <testcase classname="| N | ChromeHL |" name="When I click on &quot;Updates&quot; Link" time="0.032">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.04">
+  <testcase classname="| N | ChromeHL |" name="Then I should see &quot;Recent_Posts&quot;" time="0.039">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.04">
+  <testcase classname="| N | ChromeHL |" name="And I close the browser" time="0.039">
     <skipped/>
   </testcase>
   <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.042">
     <skipped/>
   </testcase>
-  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.047"/>
+  <testcase classname="| N | ChromeHL |" name="| N | ChromeHL |" time="0.042"/>
 </testsuite>
