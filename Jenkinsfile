@@ -40,7 +40,7 @@ node('master') {
       stage("Cucumber Reports") {
 
       
-          cucumber buildStatus: "UNSTABLE",
+          //cucumber buildStatus: "UNSTABLE",
           fileIncludePattern: "**/cucumber.json",
           jsonReportDirectory: 'target'
       
