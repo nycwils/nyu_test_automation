@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 2305844,
+              "duration": 1041601,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 80743,
+              "duration": 91301,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 180715427,
+              "duration": 153248569,
               "status": "passed"
             },
             "line": 11,
@@ -55,7 +55,7 @@
           },
           {
             "result": {
-              "duration": 18758062156,
+              "duration": 12546093600,
               "status": "passed"
             },
             "line": 12,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 970496534,
+              "duration": 998728594,
               "status": "passed"
             },
             "comments": [
@@ -108,7 +108,7 @@
         "before": [
           {
             "result": {
-              "duration": 3376260,
+              "duration": 3939232,
               "status": "passed"
             },
             "match": {
@@ -123,7 +123,7 @@
         "after": [
           {
             "result": {
-              "duration": 22542,
+              "duration": 21773,
               "status": "passed"
             },
             "match": {
@@ -136,7 +136,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1271504,
+              "duration": 9560066,
               "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:23)\n",
               "status": "pending"
             },
