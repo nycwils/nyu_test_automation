@@ -79,7 +79,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 2382393,
+  "duration": 4456660,
   "status": "passed"
 });
 formatter.scenario({
@@ -137,7 +137,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 166733053,
+  "duration": 149055916,
   "status": "passed"
 });
 formatter.match({
@@ -150,22 +150,22 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 12386325540,
+  "duration": 13270548639,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 1002156926,
+  "duration": 897964582,
   "status": "passed"
 });
 formatter.after({
-  "duration": 80908,
+  "duration": 90414,
   "status": "passed"
 });
 formatter.before({
-  "duration": 3692171,
+  "duration": 9269418,
   "status": "passed"
 });
 formatter.scenario({
@@ -223,7 +223,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 72224,
+  "duration": 83582,
   "status": "passed"
 });
 formatter.match({
@@ -236,8 +236,8 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 202322507,
-  "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary\n  (Driver info: chromedriver\u003d2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform\u003dLinux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 12 milliseconds\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ip-172-31-36-232\u0027, ip: \u0027172.31.36.232\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-1043-aws\u0027, java.version: \u00271.8.0_212\u0027\nDriver info: driver.version: ChromeDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:137)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:184)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:171)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:158)\n\tat util.WebConnector.openBrowser(WebConnector.java:118)\n\tat stepDefinitions.stepDefinition.i_am_logged_into_wp_nyu_edu_in(stepDefinition.java:37)\n\tat ✽.Given I am logged into wp.nyu.edu in \"ChromeHL\"(Account.feature:12)\n",
+  "duration": 281695900,
+  "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver\u003d2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform\u003dLinux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 74 milliseconds\nBuild info: version: \u00273.4.0\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027ip-172-31-36-232\u0027, ip: \u0027172.31.36.232\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00274.15.0-1043-aws\u0027, java.version: \u00271.8.0_212\u0027\nDriver info: driver.version: ChromeDriver\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)\n\tat org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$22(ProtocolHandshake.java:365)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:368)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:137)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:184)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:171)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:158)\n\tat util.WebConnector.openBrowser(WebConnector.java:118)\n\tat stepDefinitions.stepDefinition.i_am_logged_into_wp_nyu_edu_in(stepDefinition.java:37)\n\tat ✽.Given I am logged into wp.nyu.edu in \"ChromeHL\"(Account.feature:12)\n",
   "status": "failed"
 });
 formatter.match({
@@ -247,7 +247,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 28077696,
+  "duration": 29695325,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -343,7 +343,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4397106,
+  "duration": 5049581,
   "status": "passed"
 });
 formatter.scenario({
@@ -421,7 +421,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 13150646,
+  "duration": 9355293,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -516,11 +516,11 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 29191,
+  "duration": 19832,
   "status": "passed"
 });
 formatter.before({
-  "duration": 218927,
+  "duration": 2155609,
   "status": "passed"
 });
 formatter.scenario({
@@ -598,7 +598,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 229870,
+  "duration": 224211,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:24)\n",
   "status": "pending"
 });
@@ -693,7 +693,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 18951,
+  "duration": 17972,
   "status": "passed"
 });
 });

@@ -1,11 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 30, Failures: 0, Errors: 2, Skipped: 21, Time elapsed: 15.13 sec <<< FAILURE!
-Given I am logged into wp.nyu.edu in "ChromeHL"(| Y | ChromeHL |)  Time elapsed: 0.016 sec  <<< ERROR!
-org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Tests run: 30, Failures: 0, Errors: 2, Skipped: 21, Time elapsed: 16.001 sec <<< FAILURE!
+Given I am logged into wp.nyu.edu in "ChromeHL"(| Y | ChromeHL |)  Time elapsed: 0.017 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
   (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 12 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'ip-172-31-36-232', ip: '172.31.36.232', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1043-aws', java.version: '1.8.0_212'
 Driver info: driver.version: ChromeDriver
@@ -42,10 +44,12 @@ Driver info: driver.version: ChromeDriver
 	at stepDefinitions.stepDefinition.i_am_logged_into_wp_nyu_edu_in(stepDefinition.java:37)
 	at ✽.Given I am logged into wp.nyu.edu in "ChromeHL"(Account.feature:12)
 
-| Y | ChromeHL |  Time elapsed: 0.017 sec  <<< ERROR!
-org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+| Y | ChromeHL |  Time elapsed: 0.018 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /opt/google/chrome/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
   (Driver info: chromedriver=2.41.578700 (2f1ed5f9343c13f73144538f15c00b370eda6706),platform=Linux 4.15.0-1043-aws x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 12 milliseconds
+Command duration or timeout: 74 milliseconds
 Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
 System info: host: 'ip-172-31-36-232', ip: '172.31.36.232', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-1043-aws', java.version: '1.8.0_212'
 Driver info: driver.version: ChromeDriver
