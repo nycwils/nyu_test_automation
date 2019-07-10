@@ -18,18 +18,18 @@ Examples:
 |Runmode|BrowserType  |
 |   Y	| MozillaHL   |
 
-@RegressionTest
-Scenario Outline: Verify all the links on WebPublishing landing page is funcitonal
-Given Runmode is "<Runmode>"
-Given I am logged into wp.nyu.edu in "<BrowserType>"
-When I click on "Create" Link
-Then I should see "Admin_Email_Field"
-When I click on "Support" Link 
-Then I should see "WebPublishing_Help_Label"
-When I click on "Updates" Link 
-Then I should see "Recent_Posts"
-And I close the browser
+#@RegressionTest
+#Scenario Outline: Verify all the links on WebPublishing landing page is funcitonal
+#Given Runmode is "<Runmode>"
+#Given I am logged into wp.nyu.edu in "<BrowserType>"
+#When I click on "Create" Link
+#Then I should see "Admin_Email_Field"
+#When I click on "Support" Link 
+#Then I should see "WebPublishing_Help_Label"
+#When I click on "Updates" Link 
+#Then I should see "Recent_Posts"
+#And I close the browser
 
-Examples:
-|Runmode|BrowserType  |
-|   Y	| MozillaHL   |
+#Examples:
+#|Runmode|BrowserType  |
+#|   Y	| MozillaHL   |
