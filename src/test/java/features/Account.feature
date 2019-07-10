@@ -32,4 +32,4 @@ And I close the browser
 
 Examples:
 |Runmode|BrowserType  |
-|   N	| MozillaHL   |
+|   Y	| MozillaHL   |
