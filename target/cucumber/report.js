@@ -71,7 +71,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 1039062,
+  "duration": 2762646,
   "status": "passed"
 });
 formatter.scenario({
@@ -129,7 +129,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 179492476,
+  "duration": 160012296,
   "status": "passed"
 });
 formatter.match({
@@ -142,18 +142,18 @@ formatter.match({
   "location": "stepDefinition.i_am_logged_into_wp_nyu_edu_in(String)"
 });
 formatter.result({
-  "duration": 12807689514,
+  "duration": 13268804728,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.i_close_the_browser()"
 });
 formatter.result({
-  "duration": 1004265459,
+  "duration": 1011228318,
   "status": "passed"
 });
 formatter.after({
-  "duration": 81185,
+  "duration": 82512,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -241,7 +241,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3879360,
+  "duration": 4237583,
   "status": "passed"
 });
 formatter.scenario({
@@ -319,7 +319,7 @@ formatter.match({
   "location": "stepDefinition.Runmode_is(String)"
 });
 formatter.result({
-  "duration": 2966003,
+  "duration": 5029658,
   "error_message": "cucumber.api.PendingException: Skipping the test as Runmode is NO\n\tat stepDefinitions.stepDefinition.Runmode_is(stepDefinition.java:261)\n\tat ✽.Given Runmode is \"N\"(Account.feature:23)\n",
   "status": "pending"
 });
@@ -414,7 +414,7 @@ formatter.result({
   "status": "skipped"
 });
 formatter.after({
-  "duration": 19020,
+  "duration": 22082,
   "status": "passed"
 });
 });
