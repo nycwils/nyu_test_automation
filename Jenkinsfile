@@ -37,6 +37,10 @@ node('master') {
           
         }
        
+        stage("Clone repository 2nd time") {
+        checkout scm
+        }
+
       stage("Cucumber Reports") {
 
       
