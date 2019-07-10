@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="13.712725">
-<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="13.699204">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="2" time="13.999432">
+<testcase classname="Account Feature" name="WebPublishing Upload Avatar Image" time="13.992568">
 <system-out><![CDATA[Given Runmode is "Y"........................................................passed
 Given I am logged into wp.nyu.edu in "MozillaHL"............................passed
 And I close the browser.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="0.013521">
+<testcase classname="Account Feature" name="Verify all the links on WebPublishing landing page is funcitonal" time="0.006864">
 <skipped><![CDATA[Given Runmode is "N"........................................................pending
 Given I am logged into wp.nyu.edu in "MozillaHL"............................skipped
 When I click on "Create" Link...............................................skipped
